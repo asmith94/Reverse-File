@@ -27,7 +27,7 @@ public class ReverseFile {
 		ArrayList<String> list = new ArrayList<String>();
 		Scanner input = null;
 
-		System.out.println("This program will take a file that you specify and reverse it, and output it to a new file.");
+		System.out.println("This program will take a txt file that you specify and reverse it, and output it to a new file.");
 		System.out.println();
 		
 		
@@ -58,7 +58,7 @@ public class ReverseFile {
 			System.out.println("What is the file you would like to reverse?");
 			try {
 				sFileName = console.next();
-				input = new Scanner(new File(sFileName));
+				input = new Scanner(new File(sFileName);
 			} catch (FileNotFoundException e) {
 				System.out.println("No such file found. Please re-type the name");
 
