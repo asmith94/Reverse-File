@@ -8,7 +8,10 @@ Purpose:
    then the resulting reversed file will be output with "_Reversed"
    appended.
 Results:
-	
+	This creates a class that showcases Java's util and I/O as well 
+	as uses one of Java's most useful lists, the ArrayList. It will 
+	ask for an input file name and give you a txt file of the reversed
+	original.
     
 *************************************************************************/
 
